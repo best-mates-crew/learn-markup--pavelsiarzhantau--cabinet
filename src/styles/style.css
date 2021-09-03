@@ -1,0 +1,65 @@
+body{
+    font: 400 14px Roboto;
+    box-sizing: border-box;
+    
+}
+.grid-container{
+    width: 1366px;
+    display: grid;
+    grid-template-areas: 
+    "header main "
+    "nav    main"
+    ;
+    grid-template-rows: 72px 1fr ;
+    grid-template-columns: 246px 1120px;
+    margin: 0 auto;
+    /* min-height: 768px; */
+    min-height: 100vh;
+    box-sizing: border-box;
+
+}
+.header{
+    background-color: #25262D;
+    grid-area: header;
+    /* border: solid red 1px; */
+    vertical-align: middle;
+    box-shadow: inset 0px -1px 0px #393A42;
+
+}
+.header-content-container{
+    display: flex;
+    align-items:center;
+}
+.mainlogo{
+    margin: 13.7px 9.59px 13.78px 14.18px;
+}
+.nameApps{
+    width: 126px;
+    height: 19px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 15px;
+}
+.settingsLogo{
+    margin-top: 24px;
+    margin-bottom: 24px;
+
+}
+.nameApps a {
+    color: #778192;
+    text-decoration: none;
+    font-size: 16px;
+}
+.nav{
+    background-color: #25262D;
+    grid-area: nav;
+    display: flex;
+    flex-direction: column;
+}
+.nav div {
+    border: solid 1px red;
+}
+.main{
+    background: #E5E5E5;
+    grid-area: main;
+}
