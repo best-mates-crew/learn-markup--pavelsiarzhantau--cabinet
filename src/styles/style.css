@@ -54,10 +54,16 @@ body{
     outline: none;
     margin-top: 16px;
 }
-.container-main-nav svg{
+.left-side-bar svg use{
     fill:#778192;
 }
-.mainNavLabel:hover span, .mainNavLabel:hover svg{
+.left-side-bar .nav-button:hover use{
+    fill:white;
+}
+.left-side-bar .settingsLogo:hover use{
+    fill: white;
+}
+.mainNavLabel:hover span, .mainNavLabel:hover use{
     color:#B9C1CE;
     fill: #B9C1CE;
 }
@@ -184,3 +190,4 @@ svg{
  .nav-button span{
      margin-left: 18px;
  }
+ 
