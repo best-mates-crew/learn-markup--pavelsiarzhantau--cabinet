@@ -79,3 +79,28 @@ a{
     border-bottom: 2px solid #7840B0;
     padding-top: 2px;
 }
+.main-info-all-filtres{
+    height: 114px;
+    display: flex;
+    flex-direction: column;
+    border: solid gold 1px;
+}
+.main-info-all-filtres-filtres{
+    display: flex;
+    height: 72px;
+    border: solid red 1px;
+    align-items: center;
+    justify-content: flex-end;
+}
+.main-info-all-filtres .filtres{
+    display: flex;
+    align-items: center;
+    border: solid #E8E8E8 1px;
+    justify-content: space-between;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+
+.filtres:first-child{
+    width: 260px;
+}
