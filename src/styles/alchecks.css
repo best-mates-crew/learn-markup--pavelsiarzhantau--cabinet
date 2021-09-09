@@ -2,7 +2,9 @@
     width: 1088px;
     margin: 16px auto 0px;    
     display: flex;
-    min-height: 665px;
+    flex-direction: column;
+    min-height: 649px;
+    border: solid red 1px;
 }
 .all-checks{
     width: 100%;
@@ -11,6 +13,8 @@
     display: flex;
     margin-bottom: 16px;
     justify-content: space-between;
+    border: solid green 1px;
+
 }
 .all-checks-label{
     width: 129px;
@@ -28,14 +32,47 @@
     display: flex;  
     width: 144px;
 }
+a{
+    text-decoration: none;
+}
 .all-checks-button a{
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     height: 100%;
-    text-decoration: none;
     color: white;
     font-size: 15px;
     line-height: 22px;
+}
+.main-info{
+    width: 1088px;
+    height: 595px;
+    border: solid #E8E8E8 1px;
+    background: white;
+    border-radius: 4px;
+    font-size: 14px;
+
+}
+.main-info-container{
+    width: 1056px;
+    margin: 0 auto;
+    display: flex;
+    height: 100%;
+}
+.main-info-bottom-border{
+    border-bottom: solid #E8E8E8 1px;
+}
+.main-info-account-selection{
+    height: 49px;
+}
+.main-info-state-selection{
+    display: flex;
+    align-items: center;
+    margin-right: 32px;
+    
+}
+.main-info-state-selection label.active{
+    border-bottom: 2px solid #7840B0;
+    padding-top: 2px;
 }
