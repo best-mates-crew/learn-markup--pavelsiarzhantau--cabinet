@@ -4,7 +4,6 @@
     display: flex;
     flex-direction: column;
     min-height: 649px;
-    border: solid red 1px;
 }
 .all-checks{
     width: 100%;
@@ -13,7 +12,6 @@
     display: flex;
     margin-bottom: 16px;
     justify-content: space-between;
-    border: solid green 1px;
 
 }
 .all-checks-label{
@@ -47,6 +45,8 @@ a{
 }
 .main-info{
     width: 1088px;
+    display: flex;
+    flex-direction: column;  
     height: 595px;
     border: solid #E8E8E8 1px;
     background: white;
@@ -59,6 +59,7 @@ a{
     margin: 0 auto;
     display: flex;
     height: 100%;
+    align-items: center;
 }
 .main-info-bottom-border{
     border-bottom: solid #E8E8E8 1px;
@@ -83,17 +84,14 @@ a{
     height: 114px;
     display: flex;
     flex-direction: column;
-    border: solid gold 1px;
 }
 .main-info-all-filtres-filtres{
     display: flex;
     height: 72px;
-    border: solid red 1px;
 }
 .main-info-all-filtres-filtres .main-info-container{
     align-items: center;
     justify-content: flex-start;
-    border: solid green 1px;
 }
 .main-info-all-filtres .filtres{
     display: flex;
@@ -150,4 +148,111 @@ a{
 .filtres:nth-child(4){
     width:  168px;
     margin-right: 0px;
+}
+.main-info-all-filtres-sorted{
+    min-height: 42px;
+    font-weight: 500;
+    font-size:12px;
+}
+ .area{
+    display: flex;
+    align-items: center;   
+}
+.area svg use{
+    fill: #25262D;
+}
+.area-1{
+    width: 175px;
+    justify-content: flex-start;
+}
+.area-2{
+    width: 170px;
+    justify-content: flex-start;
+}
+.area-2 span{
+    margin-right: 6px;
+}
+.area-3{
+    width: 147px;
+    justify-content: flex-start;
+}
+.area-4{
+    width: 104px;
+    justify-content: flex-end;
+}
+.area-4 span,.area-6 span{
+    margin-right: 4px;
+}
+.area-5{
+    width: 113px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+.area-6{
+    width: 1fr;
+    justify-content: none;
+    padding-left: 108px;
+    flex-wrap: wrap;
+}
+.area-checkbox{
+    width: 16px;
+    height: 16px;
+    border: solid 1px #E3E7EE;
+    border-radius: 3px;
+    margin-right: 16px;
+}
+.area .checkbox:checked + .area-checkbox{
+    background: #25262D;
+}
+
+.main-info-dinamic-content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.line{
+    min-height: 54px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight:400;
+}
+.main-info-dinamic-content .area-4{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.area-4 .second-summ{
+    font-size: 11px;
+    line-height: 14px;
+    opacity: 0.5;
+}
+.area-4-span-hidden{
+    display: none;
+}
+.area-4 .comission{
+    color: #EE5B5B;
+}
+.main-info-dinamic-content .area-5{
+    font-weight: 500;
+}
+.area-6-status{
+    border-radius: 11px;
+    padding: 4px 10px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+}
+.area-6-status-paid{
+    color: #5BC044;
+    background: #D7EBD3;
+}
+.area-6-status-withdrawal-of-funds{
+    color: #5E77F9;
+    background: #DFE4FE;
+}
+.area-6-status-comission-rejected{
+    color: #EE5B5B;
+    background: #FCDEDE;
 }
