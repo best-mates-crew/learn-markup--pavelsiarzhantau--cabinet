@@ -57,11 +57,8 @@ body{
 .left-side-bar svg use{
     fill:#778192;
 }
-.left-side-bar .nav-button:hover use{
+.left-side-bar .nav-button:hover use, .left-side-bar .settingsLogo:hover use{
     fill:white;
-}
-.left-side-bar .settingsLogo:hover use{
-    fill: white;
 }
 .mainNavLabel:hover span, .mainNavLabel:hover use{
     color:#B9C1CE;
@@ -119,7 +116,7 @@ body{
 
 .main-full{
     width: 100%;
-    transition: 0.5s linear;
+    transition: 0.3s linear;
 }
 .Main p{
     text-align: center;    
@@ -166,7 +163,7 @@ svg{
 .nav-button:hover svg,.settingsLogo:hover svg{
     fill: white;
 }
-.nav-button:hover,.nav-button:hover a{
+.nav-button:hover a{
     background-color: #393A42;
     border-radius: 4px;
     color: white;
@@ -179,6 +176,10 @@ svg{
  .button-сlose .nav-button{
      display: flex;
      align-items: center;
+     padding: 13px 16px 13px 18.5px;
+ }
+ .button-сlose :hover{
+     color: white;
  }
  .nav-button span{
      margin-left: 18px;
