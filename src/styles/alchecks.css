@@ -262,3 +262,22 @@ a{
     color: #EE5B5B;
     background: #FCDEDE;
 }
+.active{
+    background-color: #393A42;
+    border-radius: 4px;
+    color: white;
+    
+}
+.active use{
+    fill: white !important;
+}
+.hiddenMenu{
+    visibility: visible;
+    height: 100%;
+    
+}
+.hide:checked ~ div  {
+    visibility: hidden;
+    height: 0;
+    z-index: -1;
+}

@@ -104,26 +104,19 @@ body{
     display: none;
 } 
 .hiddenMenu{
-    opacity: 0;
-    height: 0px;
-}
-.hide ~ div > div{
-    display: none;
-}
-.hide:checked ~ div > div{
-    display: flex;
-}       
+    visibility: hidden;
+    height: 0;
+}     
 .hide:checked ~ div  {
-    opacity: 1;
+    visibility: visible;
     height: 100%;
-    transition: 1s;
+    z-index: -1;
     
 }
 .hiddenClass{
     position: absolute;
     left: -246px;
-    opacity: 0;
-    transition: 0.5s linear;    
+    opacity: 0;    
 }
 
 .main-full{
