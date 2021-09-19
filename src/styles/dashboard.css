@@ -33,15 +33,50 @@
 }
 .left{
     min-height: 736px;
-    width: 260px;
+    min-width: 260px;
 }
 .right{
     width: 100%;
     margin-left: 0px;
     margin-bottom: 0px;
 }
-.borde__block{
+.border-block{
     border: #E3E7EE solid 1px;
     background-color: white;
     border-radius: 4px;
+    padding: 16px 20px;
+}
+.balans__first-line{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: solid green 1px;
+    font-size: 13px;
+    line-height: 17px;
+    color: #9EA2A9;
+    margin-bottom: 4px;
+}
+.balans__realy-balans{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;
+    color: #2F3A4A;
+    border: green solid 1px;
+    margin-bottom: 32px;
+}
+.balans__to-up-balance{
+    background: #7840B0;
+    border-radius: 4px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 38px;
 }
