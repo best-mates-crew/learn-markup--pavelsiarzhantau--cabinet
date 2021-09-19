@@ -25,15 +25,17 @@
     
 }
 .container-main{
-    border: solid red 1px;
-    margin: 16px;
     display: flex;
     flex-direction: column;
 
 }
 .left{
-    min-height: 736px;
     min-width: 260px;
+    padding-bottom: 45px;
+    justify-content: flex-start;
+    margin-left: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 .right{
     width: 100%;
@@ -44,14 +46,17 @@
     border: #E3E7EE solid 1px;
     background-color: white;
     border-radius: 4px;
-    padding: 16px 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    
 }
 .balans__first-line{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    border: solid green 1px;
     font-size: 13px;
     line-height: 17px;
     color: #9EA2A9;
@@ -62,7 +67,6 @@
     font-size: 28px;
     line-height: 32px;
     color: #2F3A4A;
-    border: green solid 1px;
     margin-bottom: 32px;
 }
 .balans__to-up-balance{
@@ -80,3 +84,125 @@
     align-items: center;
     height: 38px;
 }
+.history-transaction{
+    height: 100%;
+    margin-top: 16px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    
+}
+.label{
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 16px;
+    margin-bottom: 16px;
+}
+.label__name{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #2F3A4A;
+}
+.label__check-condition{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #7840B0;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.label__all{
+    margin-right: 4px;
+}
+.label__arrow use{
+    fill: white;
+    stroke: #7840B0;
+}
+.account-info{
+    overflow: scroll;
+    max-height: 505px;
+    margin-bottom: 0px;
+    
+}
+.account-info::-webkit-scrollbar{
+    display: none;
+    
+}
+.account-info__action{
+    height: 48px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;   
+    box-sizing: border-box;
+    align-items: center;
+}
+.account-info__label{
+    width: 24px;
+    height: 100%;
+    margin-right: 12px;
+    display: flex;
+    align-items: center;
+    
+}
+.account-info__label_hiden{
+    display: none;
+}
+.account-info__info-about-trasaction{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: inset 0px -0.5px 0px #E8E8E8;
+    width: 100%;
+    justify-content: space-between;
+    height: 100%;
+    padding-right: 16px;
+    
+}
+
+.account-info__aciton-and-time{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+.account-info__action-for{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 12px;
+    color: #2F3A4A;
+    display: flex;
+}
+.account-info__time{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #9EA2A9;
+    display: flex;
+}
+.account-info__sums{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 14px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-top: 10px;
+    color: #2F3A4A;
+    height: 100%;   
+}
+.comission{
+    color: #EE5B5B;
+}
+
