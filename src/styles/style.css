@@ -9,6 +9,7 @@ body{
     margin: 0 auto;
     box-sizing: border-box;
     background: #E5E5E5;
+    height: 768px;
 }
 .left-side-bar{
     height: 768px;
@@ -27,7 +28,9 @@ body{
 }
 .Main{
     width: 1120px;
-    min-height: 768px;
+    height: 768px;
+    box-sizing: border-box;
+    
 }
 .header{
     height: 72px;

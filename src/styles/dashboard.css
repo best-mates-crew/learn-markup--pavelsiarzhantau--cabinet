@@ -1,0 +1,47 @@
+.active{
+    background-color: #393A42;
+    border-radius: 4px;
+    color: white;
+    
+}
+.active use{
+    fill: white !important;
+}
+.hiddenMenu{
+    visibility: visible;
+    height: 100%;
+    
+}
+.hide:checked ~ div  {
+    visibility: hidden;
+    height: 0;
+    z-index: -1;
+}
+.dashboard{
+    width: 100%;
+    height: 100%;
+    border: green 1px solid;
+    display: flex;
+    
+}
+.container-main{
+    border: solid red 1px;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+
+}
+.left{
+    min-height: 736px;
+    width: 260px;
+}
+.right{
+    width: 100%;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+.borde__block{
+    border: #E3E7EE solid 1px;
+    background-color: white;
+    border-radius: 4px;
+}

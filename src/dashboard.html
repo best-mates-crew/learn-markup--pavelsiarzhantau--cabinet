@@ -7,6 +7,7 @@
     <title>Cabinet | HOME</title>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/dashboard.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
@@ -44,18 +45,18 @@
                     </div>   
                 </label>
                 <div class="hiddenMenu">
-                    <div class="nav-button">
-                        <a href="dashboard.html">
-                            <div>
+                    <div class="nav-button active">
+                        <a href="">
+                            <div class="active">
                                 <svg width="14" height="14">    
                                     <use xlink:href="/src/img/logoImages/InlineSprite.svg#src-4"></use>
                                 </svg>
                             </div>
-                            <span>Компания</span>
+                            <span class="active">Компания</span>
                         </a>                               
                     </div>
                     <div class="nav-button">
-                        <a href="">
+                        <a href="#">
                             <div>
                                 <svg width="12" height="16">    
                                     <use xlink:href="/src/img/logoImages/InlineSprite.svg#src-3"></use>
@@ -167,12 +168,13 @@
             </div>
         </div>
         <main class= "Main" id ="content">
-            <p>
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-               Iusto tempore labore quod laborum neque ipsa cupiditate? 
-               Perspiciatis provident, assumenda ad dolorum velit ducimus ipsa 
-               officia sed cumque recusandae nesciunt. Sed.
-            </p>
+            <div class="dashboard">
+                <div class="container-main left">
+                    <div class="balans"></div>
+                    <div class="history-transaction"></div>
+                </div>
+                <div class="container-main right"></div>
+            </div>
         </main>
         <script src="/src/js/index.js"></script>
     </div>
